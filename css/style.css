@@ -108,6 +108,14 @@ nav{
     z-index: 1111;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+.navbar{
+    padding: 18px 0;
+}
+@media (max-width:768px) {
+    .navbar{
+        padding: 8px 0;
+    }
+}
 .navbar-toggler{
     color: #FFF;
 }
@@ -176,9 +184,15 @@ background-color: #FAFAFA;
     font-size: 4rem;
     font-weight: 700;
 }
+
 @media (max-width:992px){
     .carousel-caption h5{
         font-size: 3rem;
+    }
+}
+@media (max-width:768px) {
+    .carousel-caption h5{
+        font-size: 2rem;
     }
 }
 /* end */
@@ -187,7 +201,11 @@ background-color: #FAFAFA;
 .about-us{
     padding: 100px 0;
 }
-
+@media (max-width:768px) {
+    .about-us{
+       padding: 30px 0;
+    }
+}
 .about-us .about-text p{
     font-size: 14px;
     color: #666;
@@ -215,6 +233,11 @@ background-color: #FAFAFA;
 /* start our team */
 .our-team{
     padding: 100px 0;
+}
+@media (max-width:768px) {
+    .our-team{
+       padding: 30px 0;
+    }
 }
 .our-team-box{
     text-align: center;
@@ -276,6 +299,11 @@ background-color: #FAFAFA;
 .info{
     padding: 60px 0 50px;
 }
+@media (max-width:768px) {
+    .info{
+        padding: 20px 0 30px;
+    }
+}
 .info-text p{
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
@@ -301,7 +329,11 @@ background-color: #FAFAFA;
     padding: 100px 0;
     background-color: #FAFAFA;
 }
-
+@media (max-width:768px) {
+    .Services{
+        padding: 50px 0;
+    }
+}
 .services-box i{
     font-size: 30px;
     color: #f25454;
@@ -328,6 +360,11 @@ background-color: #FAFAFA;
 /* start clients section */
 .clients{
     padding: 80px 0;
+}
+@media (max-width:768px) {
+    .clients{
+        padding: 50px 0;
+    }
 }
 .slick-slider div{
 width: 20% !important;
@@ -387,6 +424,11 @@ transition:transform .5s, -webkit-transform .5s !important ;
 .contact-us{
     background-color: #FAFAFA;
     padding: 100px 0;
+}
+@media (max-width:768px){
+    .contact-us{
+       padding: 50px 0;
+    }
 }
 .get-touch h2{
     font-size: 34px;
